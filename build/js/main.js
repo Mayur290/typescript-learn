@@ -17,3 +17,14 @@
 //   return a + b;
 // };
 // let postId: string | number;
+let test = [];
+let brands = [];
+brands.push("van he");
+// tuples
+let myTuples = ["Dave", 42, true];
+let mixed = ["john", 1, false];
+let mymy = {
+    name: "Eddie",
+    active: false,
+    albums: [1984, 5150, "OSJ918"],
+};

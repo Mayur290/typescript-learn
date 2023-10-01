@@ -23,3 +23,23 @@
 // };
 
 // let postId: string | number;
+
+let test = [];
+let brands: string[] = [];
+brands.push("van he");
+
+// tuples
+let myTuples: [string, number, boolean] = ["Dave", 42, true];
+let mixed = ["john", 1, false];
+
+type guitarIst = {
+  name: string;
+  active: boolean;
+  albums: (string | number)[];
+};
+
+let mymy: guitarIst = {
+  name: "Eddie",
+  active: false,
+  albums: [1984, 5150, "OSJ918"],
+};
